@@ -162,18 +162,14 @@ li a:hover::after{
 
 .purpose__content{
     background-color: #F4F5F7;
-    padding:77px 130px 76px;
+   padding: 76px 131px  78px 130px;
     
 }
 
 .purpose__left{
-    padding: 77px 0 76px 131px;
     margin-right: 29px;
 }
 
-.purpose__right{
-    padding: 77px 131px 76px;
-}
 
 .purpose__title{
     font-weight: 700;
@@ -193,7 +189,8 @@ li a:hover::after{
 
 .brands__content{
 justify-content: space-around;
-padding: 53px 130.23px 106px 130px;
+padding: 30px 0 106px;
+
 }
 
 .logo__item{
