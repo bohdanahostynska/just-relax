@@ -106,7 +106,7 @@ li a:hover::after{
 
 
 .preview__left{
-    margin-left: 126px;
+    margin-left: 130px;
   
 }
 
@@ -187,16 +187,19 @@ li a:hover::after{
     width:555px;
 }
 
+
 .brands__content{
 justify-content: space-around;
-padding: 30px 0 106px;
+padding: 30px 0 106px 0;
 
 }
 
 .logo__item{
     margin-right: 105px;
+
 }
 
 .logo__item:last-child{
     margin-right: 0;
 }
+
