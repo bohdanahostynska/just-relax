@@ -176,8 +176,7 @@ li a:hover::after{
     margin: o auto;
 }
 .purpose__content{
-  display: flex;
-  align-items: center;
+
   justify-content: space-between;
     
 }
@@ -193,6 +192,7 @@ li a:hover::after{
     line-height: 32px;
     color: #2B292D;
     margin-bottom: 30px;
+    padding-right: 130px;
 }
 
 .purpose__text{
@@ -200,12 +200,19 @@ li a:hover::after{
     font-size: 22px;
     line-height: 32px;
     color: #2B292D;
-    width:555px;
-}
+    max-width:555px;
+
+  }
 
 .brands{
     padding: 76px 0 171px;
 }
+
+.pictures__heading{
+    padding: 113px 0 113px;
+}
+
+.
 
 .container{
     max-width: 1100px;
@@ -213,8 +220,75 @@ li a:hover::after{
 
 .brands__content{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+ 
+}
+
+.pictures .container{
+    max-width:1100px;
+  
+}
+
+.pictures__heading{
+   display: block;
+   margin: 0 auto;
+}
+
+.pictures__title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+  margin: 0 auto;
+  max-width: 500px;
+    
+}
+
+.pictures__text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    color: #172342;
+    margin: 0 auto;
+    width:399px; 
+    height: 66.54px;
 }
 
 
+
+.grid{
+    display: grid;
+    gap:49px;
+    grid-template-columns: repeat(3, 1fr );
+    grid-template-rows: repeat(3,1fr);
+    }
+
+    .item:nth-child(1){
+        content:url(../img/grid.pic/Rectangle\ 24.png);
+        
+    }
+    .item:nth-child(2){
+        content:url(../img/grid.pic/Rectangle\ 23.png);
+    }
+
+    .item:nth-child(3){
+        content: url(../img/grid.pic/man.png.png);
+        grid-row: span 2;
+    }
+
+    .item:nth-child(4){
+        content: url(../img/grid.pic/Rectangle\ 13.png);
+        grid-row:span 2;
+    }
+.item:nth-child(5){
+    content: url(../img/grid.pic/Rectangle\ 19.png);
+}
+
+.item:nth-child(6){
+    content:url(../img/grid.pic/Rectangle\ 21.png);
+}
+
+.item:nth-child(7){
+    content: url(../img/grid.pic/Rectangle\ 20.png);
+}
+
+.
