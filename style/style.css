@@ -271,16 +271,13 @@ li a:hover::after{
 
 
 .audience {
-    
         background-color: #00A1C6;
-        mix-blend-mode: normal;
-        padding-top: 108px;
-        padding-bottom: 110px;
+      padding: 108px 0 110px;
  }
 
 .container{
     max-width: 1140px;
-    margin: 0 auto;
+    
 }
 
 .audience__content{
@@ -304,7 +301,7 @@ li a:hover::after{
     margin-top: 231px;
     margin: 0 auto;
     max-width: 167px;
-    margin-top: 108px;
+   
 
 }
 .audience__title{
@@ -338,7 +335,6 @@ li a:hover::after{
         padding: 17px 29px 18px 28px;
         margin-top: 51px;
         margin-bottom: 129px;
-
         margin-right: 10px;
     }
 
@@ -389,7 +385,7 @@ li a:hover::after{
         border-radius: 8px;
         margin-top: 111px;
         justify-self: center;
-       margin-bottom: 110px;
+     
       } 
 
      .audience-item:nth-child(9):hover{
