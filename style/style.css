@@ -207,14 +207,6 @@ li a:hover::after{
     padding: 76px 0 171px;
 }
 
-.pictures__heading{
-    padding: 113px 0 113px;
-}
-
-
-.container{
-    max-width: 1140px;
-}
 
 .brands__content{
     display: flex;
@@ -228,10 +220,6 @@ li a:hover::after{
         background-color: #00A1C6;
         padding: 108px 0 110px;
  }
-
-.container{
-    
-}
 
 .audience__content{
 
@@ -285,7 +273,6 @@ li a:hover::after{
         height: 48px;
         border: 2px;
         background-color: #3040C4;
-        align-items: flex-start;
         padding: 17px 29px 18px 28px;
         margin-top: 51px;
         margin-bottom: 129px;
@@ -299,8 +286,6 @@ li a:hover::after{
         height: 48px;
         border: 2px;
         background-color: #666984;
-        margin: 0 auto;
- align-items: center;
         padding: 17px 29px 18px 28px;
         cursor: pointer;
     }
@@ -316,8 +301,6 @@ li a:hover::after{
         color: #3040C4;
         font-weight: 700;
         padding: 17px 29px 18px 28px;
-        text-align: center;
-        margin: 0 auto;
 
        
     }
@@ -401,10 +384,13 @@ li a:hover::after{
     margin:0 22px;
     }
 
-    .pictures .container{
-        max-width:1140px;
-      
+  
+
+    .pictures__heading{
+        padding: 113px 0 113px;
     }
+    
+    
     
     .pictures__heading{
        display: block;
