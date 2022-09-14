@@ -271,8 +271,11 @@ li a:hover::after{
 
 
 .audience {
-        background-color:#edf8fb;
+    
+        background-color: #00A1C6;
         mix-blend-mode: normal;
+        padding-top: 108px;
+        padding-bottom: 110px;
  }
 
 .container{
@@ -281,10 +284,8 @@ li a:hover::after{
 }
 
 .audience__content{
-    display: flex;
-    justify-content: space-between;
- 
-
+    margin: 0 auto;
+    text-align: center;
 }
 
 .audience__features{
@@ -325,13 +326,6 @@ li a:hover::after{
         margin-top: 30px;
     }
 
-    .audience__button{
-        display: flex;
-      justify-content: space-around;
-      margin-top: 64px;
-      margin-bottom: 111px;
-
-    }
 
     .audience__button-1{
         line-height: 13px;
@@ -340,11 +334,12 @@ li a:hover::after{
         height: 48px;
         border: 2px;
         background-color: #3040C4;
-        margin: 0 auto;
-        text-align: center;
         align-items: flex-start;
         padding: 17px 29px 18px 28px;
+        margin-top: 51px;
+        margin-bottom: 129px;
 
+        margin-right: 10px;
     }
 
     .audience__button-1:hover{
@@ -355,8 +350,7 @@ li a:hover::after{
         border: 2px;
         background-color: #666984;
         margin: 0 auto;
-        text-align: center;
-        align-items: flex-start;
+ align-items: center;
         padding: 17px 29px 18px 28px;
         cursor: pointer;
     }
@@ -398,7 +392,7 @@ li a:hover::after{
        margin-bottom: 110px;
       } 
 
-     .item:nth-child(9):hover{
+     .audience-item:nth-child(9):hover{
         background-color:#3141C5;
         color:#FFFFFF;
         background-blend-mode: overlay, normal;
