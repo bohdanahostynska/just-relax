@@ -18,6 +18,11 @@ body{
     align-items:center;
 }
 
+.flex__start{
+    justify-content: start;
+}
+
+
 .logo img{
     margin-right: 15px;
 }
@@ -58,7 +63,7 @@ body{
     font-weight: bold;
 }
 
-.header__button{
+.button{
     width: 160px;
     height: 48px;
     border: 2px;
@@ -70,7 +75,7 @@ body{
     font-weight: 700;
 }
 
-.header__button:hover{
+.button:hover{
     background-color: #6f36a8;
     cursor: pointer;
     transition: 200px;
@@ -217,7 +222,7 @@ li a:hover::after{
 
 
 .audience {
-        background-color: rgba( 0, 161, 198);
+        background-color:rgb(0, 161, 198,.07);
         padding: 108px 131px 110px;
         
     }
@@ -236,7 +241,7 @@ li a:hover::after{
     margin: 0 auto;
     display: inline-block;
     justify-content: space-between;
-   
+    width: 100%;
 }
 
 
@@ -326,8 +331,7 @@ li a:hover::after{
         border-radius: 8px;
         margin-top: 111px;
        padding:22px  68px 22px 60px;
-         max-width: 110px;
-    
+         max-width: 262px;
       } 
 
       .grid .item:hover{
@@ -337,13 +341,8 @@ li a:hover::after{
 
       }
 
-      .subtitle-small:hover{
-        color: #FFFFFF;
-        cursor: pointer;
-        transition: 2ms;
-    }
 
-    .subtitle-small{
+    .audience__subtitle-small{
         justify-content: center;
         text-align: center;
         font-size: 22px;
@@ -352,16 +351,24 @@ li a:hover::after{
         max-width: 212px;
     }
 
+    .audience__subtitle-small:hover{
+        color: #FFFFFF;
+        cursor: pointer;
+        transition: 2ms;
+    }
+
+
 
 
    
   .pictures{
     margin: 0 auto;
    
+   
   }
 
   .pictures__content{
-   display: block;
+   display: inline-block;
     padding-top: 90px;
     padding-bottom: 91px;
 
@@ -392,7 +399,7 @@ li a:hover::after{
     padding-bottom: 97px;
   }
  
-  .grid-2 {
+  .pictures__grid {
     display: grid;
     gap:50px;
     grid-template-columns: repeat(3,1fr);
@@ -402,10 +409,162 @@ li a:hover::after{
   
   }
 
-  .items:nth-child(7){
+  .pictures__items{
+   max-width: 554px;
+  }
+
+  .items:nth-child(7) .items:nth-child(8){
     grid-column: span 2;
   }
 
-  .items:nth-child(8){
-    grid-column: span 2;
-  }
+
+
+   .inbox{
+    background-color: rgb(252, 240, 227, .4);
+    padding: 115px 0 116px;
+   }
+
+   .inbox__response{
+    max-width: 519px;
+    width:100%;
+    background-color: #FFFFFF;
+    padding: 30px 30px 24px;
+    box-sizing: border-box,;
+    border-bottom: 4px solid  #0185D0;
+    }
+
+   .inbox__text{
+    font-size: 20px;
+    line-height: 28px;
+    color: #2B292D;
+    padding-bottom: 26px;
+}
+
+.inbox__text-bold{
+    font-weight: 700;
+}
+.inbox__img{
+    margin-right: 11px;
+}
+
+.inbox__name{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;  
+    color: #2B292D;
+}
+
+.inbox__position{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;  
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.info__pretitle{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 34px;
+    margin-bottom: 26px;
+}
+
+.info__pretitle-orange{
+    color: #F1592B;
+}
+
+.info__title{
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    color: #2B292D;
+    font-weight: bold;
+    max-width: 462px;
+    margin-bottom: 26px;
+}
+
+.info__text{
+    max-width: 461px;
+    font-size: 24px;
+    line-height: 34px;
+    color: #2B292D;
+    margin-bottom: 44px;
+}
+
+
+.communicate{
+    padding: 110px 0 105px;
+
+
+}
+
+.communicate__content{
+  
+    justify-content: space-between;
+   text-align: center;
+    }
+
+.communicate__built{
+    display: flex;
+    flex-direction: column;
+}
+
+.communicate__pretitle{
+    font-size: 22px;
+    line-height: 34px;
+    text-align: start;
+
+    }
+
+
+ .communicate__pretitle-blue{
+    color: #0189D1;  
+}
+
+.communicate__title{
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    color: #2B292D;
+    max-width: 462px;
+    margin-top: 24px;
+    margin-bottom: 30px;
+    text-align: start;
+}
+
+.communicate__text{
+    font-family: 'WorkSans';
+    font-size: 24px;
+    line-height: 34px;
+    color: #2B292D;
+    margin-bottom: 39px;
+    max-width: 461px;
+    text-align: start;
+}
+
+.communicate__learn{
+    margin: 105px 0;
+justify-content: space-around
+}
+
+
+.learn__text-bold{
+    font-weight: 700;
+}
+
+.learn__text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+     color: #2B292D;
+     max-width: 360px;
+     margin-bottom: 20px;
+}
+
+
+
+.learn__li{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color:rgba(49, 66, 198, 1);
+}
