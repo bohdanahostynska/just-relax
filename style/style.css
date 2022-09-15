@@ -334,7 +334,7 @@ li a:hover::after{
          max-width: 262px;
       } 
 
-    .audience__pic .audience__subtitle:hover{
+    .audience__pic:hover{
         background-color: #3040C4;
         cursor: pointer;
         transition: 2ms; 
