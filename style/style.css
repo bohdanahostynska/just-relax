@@ -176,12 +176,7 @@ li a:hover::after {
 .purpose {
     background-color: #F4F5F7;
     padding: 77px 0 76px;
-}
-
-.purpose__content {
-
-    justify-content: space-between;
-
+    
 }
 
 .purpose__left {
@@ -205,7 +200,6 @@ li a:hover::after {
     max-width: 555px;
 
 }
-
 
 .audience {
     background-color: rgb(0, 161, 198, .07);
@@ -352,7 +346,6 @@ li a:hover::after {
 }
 
 
-
 .inbox__response {
     max-width: 519px;
     width: 100%;
@@ -390,6 +383,7 @@ li a:hover::after {
     line-height: 22px;
     color: rgba(43, 41, 45, 0.6);
 }
+
 
 .info__pretitle {
     font-weight: bold;
@@ -575,6 +569,8 @@ li a:hover::after {
         display: none;
     }
 
+    /* inbox */
+
     .flex__inbox-column {
         flex-direction: column-reverse;
     }
@@ -605,6 +601,8 @@ li a:hover::after {
         text-align: start;
     }
 
+    /* pictures */
+
     .grid {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, 1fr);
@@ -629,6 +627,8 @@ li a:hover::after {
         grid-column: 2/3;
     }
 
+    /* purpose */
+
     .flex__content-column {
         flex-direction: column;
     }
@@ -643,19 +643,76 @@ li a:hover::after {
         margin-bottom: 66px;
     }
 
+/* brands */
+
     .brands__content-grid {
         display: grid;
         gap: 37px 130px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        margin: 29px 41px;
+        margin:  0 29px 0 41px;
     }
+  
+/* communicate */
+
+
+    .communicate{
+        padding: 73px 0 38px;
+    }
+        .flex__content-column{
+        flex-direction: column;
+    
+    }
+
+     .communicate__built{
+        text-align: center;
+        margin-bottom: 37px;
+     }
+
+    .communicate__pretitle{
+        text-align: center;
+    }
+     .communicate__title{
+            font-size: 48px;
+            margin:18px 0 19px;
+            max-width: 318px;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+    .communicate__text{
+        max-width: 419px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 41px;
+    }
+
+    .communicate-image{
+        width: 100%;
+    }
+
+    .communicate__learn{
+        flex-direction: column;
+       margin: 0 auto;
+        text-align: center;
+        max-width: 322px;
+        margin-bottom: 38px;
+       
+    }
+
+    .learn-item:nth-child(2),.learn-item:nth-child(3){
+        display: none;
+    }
+
+
 }
 
 
 
 
 @media screen and (max-width:800px) {
+ /* header */
+ 
     .container {
         max-width: 500px;
     }
@@ -664,12 +721,29 @@ li a:hover::after {
         padding: 25px 0;
     }
 
+    /* inbox */
+
     .inbox {
         padding: 40px 0;
     }
 
     .inbox__response {
         margin-bottom: 50px;
+    }
+
+    /* brands */
+
+    .brands__content-grid {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .logo__item{
+        background: #FFFFFF;
+        box-shadow: inset -1px 0px 0px rgba(200, 200, 200, 0.5);
+        max-width: 100%;
     }
 }
 
@@ -716,6 +790,7 @@ li a:hover::after {
         max-width: 290px;
     }
 
+  /* header */
     .header {
         background-color: #fff;
         padding: 8px 0;
@@ -723,7 +798,10 @@ li a:hover::after {
 
     .logo img {
         margin-right: 13px;
+        max-width: 290px;
     }
+
+    /* inbox */
 
     .inbox {
         padding: 50px 0 48px;
@@ -741,6 +819,7 @@ li a:hover::after {
     .info {
         text-align: start;
     }
+
 
     .info__pretitle {
         margin-bottom: 17px;
@@ -790,20 +869,22 @@ li a:hover::after {
         margin-bottom: 20px;
     }
 
+    
+
     .brands__content-grid {
         display: grid;
+        gap: 0;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
-
+        margin-left: 0;
     }
 
     .logo__item {
-        justify-items: center;
-        width: 107px;
-        height: 94px;
         width: 100%;
-        background: #FFFFFF;
-        box-shadow: inset -1px 0px 0px rgba(200, 200, 200, 0.5);
+            background: #FFFFFF;
+            box-shadow: inset -1px 0px 0px rgba(200, 200, 200, 0.5);
+            max-width: 107px;
+        
     }
 
-}
+} 
