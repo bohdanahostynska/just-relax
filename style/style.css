@@ -574,12 +574,13 @@ li a:hover::after {
 
     .flex__content-column {
         flex-direction: column;
+        
     }
 
     .purpose__content {
         max-width: 432px;
         margin: 69px 0 34px;
-
+        margin: 0 auto;
     }
 
     .purpose__left {
@@ -815,6 +816,11 @@ li a:hover::after {
         max-width: 100%;
     }
     
+    .purpose__content {
+        max-width: 432px;
+        margin: 69px 0 34px;
+        margin: 0 auto;
+    }
     .logo__item {
         width: 100%;
          background: #FFFFFF;
@@ -889,6 +895,12 @@ li a:hover::after {
         max-width: 430px;
     }
 
+    .purpose__content {
+        max-width: 432px;
+        margin: 69px 0 34px;
+        margin: 0 auto;
+    }
+
     /* inbox */
 
     .inbox {
@@ -960,6 +972,11 @@ li a:hover::after {
         padding: 8px 0;
     }
 
+    .purpose__content {
+        max-width: 432px;
+        margin: 69px 0 34px;
+        margin: 0 auto;
+    }
     /* brands */
     
 
@@ -1079,6 +1096,12 @@ li a:hover::after {
         padding: 8px 0;
     }
 
+    .purpose__content {
+        max-width: 432px;
+        margin: 69px 0 34px;
+        margin: 0 auto;
+    }
+
     .container-image__img{
         max-width:290px;
         width:100% 
@@ -1113,6 +1136,12 @@ li a:hover::after {
     .header {
         background-color: #fff;
         padding: 8px 0;
+    }
+
+    .purpose__content {
+        max-width: 432px;
+        margin: 69px 0 34px;
+        margin: 0 auto;
     }
 
     .logo img {
