@@ -52,7 +52,7 @@ body {
 }
 
 .header__ul {
-    margin: 75px;
+    margin-right: 75px;
 }
 
 .header__li:first-of-type {
@@ -323,7 +323,6 @@ li a:hover::after {
     font-size: 22px;
     line-height: 28px;
     color: #2B292D;
-    max-width: 212px;
 }
 
 
@@ -824,7 +823,6 @@ li a:hover::after {
     .logo__item {
         width: 100%;
          background: #FFFFFF;
-        height: 94px;
         align-items: center; 
         
     }
