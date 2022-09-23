@@ -583,6 +583,7 @@ li a:hover::after {
     border-radius: 2px;
     padding-left: 15px;
     border: rgba(48, 64, 196, 1);
+
 }
 
 
@@ -1774,7 +1775,23 @@ li a:hover::after {
 .freetrial__info{
     flex-direction: column;
 }
+
+
+.audience__pic{
+    position: relative;
+    transform-style: preserve-3d;
+
 }
+
+.audience__pic:hover{
+    background-color: #3040C4;
+    transition-duration:(360deg);
+    transition-timing-function: ease-in-out;
+}
+}
+
+
+
 /* animation */
 
 
@@ -1845,13 +1862,11 @@ li a:hover::after {
 
 .audience__pic{
     position: relative;
-    animation-name:kit;
     transform-style: preserve-3d;
 
 }
 
 .audience__pic:hover{
-    animation-play-state: paused;
     background-color: #3040C4;
     transition-duration: 4s;
     transform: rotateY(180deg);
