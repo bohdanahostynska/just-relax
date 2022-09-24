@@ -667,11 +667,13 @@ li a:hover::after {
     color: rgba(43, 41, 45, 0.6);
 }
 
-.trial__text:last-child{
 
-   color: rgba(49, 66, 198, 1);
-
+.trial-href__list{
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(49, 66, 198, 1); 
 }
+
 @media screen and (max-width:1200px) {
     .container {
         max-width: 1040px;
