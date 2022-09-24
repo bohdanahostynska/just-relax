@@ -654,10 +654,10 @@ li a:hover::after {
 
 .trial__checkbox{
     opacity: 0;
-  margin-top: 50px;
- width: 160px;
- height: 36px;
- margin: 0 auto; 
+    margin-top: 50px;
+    width: 160px;
+    height: 36px;
+    margin: 0 auto; 
 
 } 
 
