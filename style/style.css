@@ -547,7 +547,9 @@ li a:hover::after {
 }
 
 .freetrial__image{
-    margin-right: 122px;
+    
+    align-items: center;
+    margin: 0 auto;
 }
 
 .freetrial__list{
@@ -576,7 +578,7 @@ li a:hover::after {
    
 }
 
-.freetrial input{
+.freetrial .email{
     width: 385px;
     height:48px;
     background: #FFFFFF;
@@ -587,7 +589,7 @@ li a:hover::after {
 }
 
 
-.freetrial input::placeholder{
+.freetrial .email::placeholder{
     font-size: 18px;
     line-height: 13px;  
 
@@ -606,18 +608,70 @@ li a:hover::after {
     cursor: pointer;
     
 }
-.freetrial__items{
-    margin: 0 auto;
+
+.flex__trial-row{
+    flex-direction:row;
+    text-align: center;
+     align-items: center;
+
+    
 }
- .fake{
+
+
+ .trial__menu{
+    width: 100%; 
+    max-width: 160px;
+    justify-content:space-between;
+    
+} 
+
+.fake{
+    display: inline-block;
     width: 10px;
     height: 10px;
     border: 1px solid black;
     border-radius: 25%;
+    cursor: pointer;
+    position: relative;
 }
 
+.fake::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(18, 86, 86);
+    left: 50%;
+    top: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+}
 
+.trial__checkbox:checked ~ .fake::before { 
+    opacity: 1;
+    transition: 1s;
+} 
 
+.trial__checkbox{
+    opacity: 0;
+ margin-top: 50px;
+ width: 160px;
+ height: 36px;
+ margin: 0 auto;
+
+} 
+
+.trial__text{
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.trial__text:last-child{
+
+   color: rgba(49, 66, 198, 1);
+
+}
 @media screen and (max-width:1200px) {
     .container {
         max-width: 1040px;
@@ -766,6 +820,31 @@ li a:hover::after {
         display: none;
     }
 
+    .communicate-image__img{
+        position: relative;
+        animation-name:img;
+        animation-duration: 10s;
+         animation-timing-function:ease-in-out;
+        animation-delay: 10s;
+        animation-iteration-count:infinite;
+        animation-fill-mode:backwards; 
+        animation-direction:alternate;
+    }
+    
+    .communicate-image__img:hover{
+        animation-play-state: paused;
+        transform: scale(1.5);
+        transition-duration: 100ms;
+    }
+    
+    @keyframes img{
+        from{
+            left: 0;
+        }
+        to{
+            left: -100px;
+        }
+    }
 
     /* 
     audience */
@@ -885,6 +964,7 @@ li a:hover::after {
     max-width: 590px;
     text-align: center;
     margin-bottom: 35px;
+    margin: 0 auto;
 }
 
 .freetrial__info{
@@ -1606,6 +1686,32 @@ li a:hover::after {
         display: block;
         margin: 2px 0 32px;
     }
+
+    .communicate-image__img{
+        position: relative;
+        animation-name:img;
+        animation-duration: 10s;
+         animation-timing-function:ease-in-out;
+        animation-delay: 10s;
+        animation-iteration-count:infinite;
+        animation-fill-mode:backwards; 
+        animation-direction:alternate;
+    }
+    
+    .communicate-image__img:hover{
+        animation-play-state: paused;
+        transform: scale(1.5);
+        transition-duration: 100ms;
+    }
+    
+    @keyframes img{
+        from{
+            left: 0;
+        }
+        to{
+            left: -100px;
+        }
+    }
     
     /* 
     audience */
@@ -1760,6 +1866,14 @@ li a:hover::after {
     margin-right: 18px;
 }
 
+.trial__check{
+
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(2,1fr);
+max-width: 290px;
+}
+
 .freetrial__image{
    max-width: 282px;
    width: 100%;
@@ -1835,8 +1949,8 @@ li a:hover::after {
      animation-timing-function:ease-in-out;
     animation-delay: 10s;
     animation-iteration-count:infinite;
-    animation-fill-mode:forwards; 
-    animation-direction:alternate-reverse;
+    animation-fill-mode:backwards; 
+    animation-direction:alternate;
 }
 
 .communicate-image__img:hover{
@@ -1850,7 +1964,7 @@ li a:hover::after {
         left: 0;
     }
     to{
-        left: 200px;
+        left: -100px;
     }
 }
 
@@ -1899,7 +2013,7 @@ li a:hover::after {
     transition-duration: 300ms;
 }
 
-.item:{
+.item{
     position: relative;
     animation-name:pic;
 }
@@ -1941,3 +2055,4 @@ li a:hover::after {
     transition: 500ms;
     transform: scale(1.2);
 }
+
