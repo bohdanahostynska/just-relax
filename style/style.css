@@ -113,7 +113,7 @@ li a:hover::after {
     position: relative;
 }
 
-.container {
+.preview.container {
     max-width: 1140px;
 }
 
@@ -132,6 +132,9 @@ li a:hover::after {
     margin: 0 auto;
 }
 
+.preview__image img{
+    width: 100%;
+}
 
 .preview__info {
     flex-direction: column;
