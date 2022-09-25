@@ -113,31 +113,22 @@ li a:hover::after {
     position: relative;
 }
 
-.preview.container {
-    max-width: 1140px;
-}
 
-.preview_content>div:first-of-type {
+.preview_container >div:first-of-type {
     z-index: 1;
+
 }
 
-.preview_content>div:last-of-type {
+.preview_container >div:last-of-type {
     z-index: 0;
     position: absolute;
-    right: 25px;
+    right: 25px;   
 }
 
-.container {
-    max-width: 1140px;
-    margin: 0 auto;
-}
-
-.preview__image img{
-    width: 100%;
-}
-
-.preview__info {
-    flex-direction: column;
+.img__preview{
+   max-width: 100%;
+   width: 796px;
+   
 }
 
 .preview__title {
@@ -147,7 +138,7 @@ li a:hover::after {
     letter-spacing: -0.5px;
     color: #2B292D;
     max-width: 754px;
-    margin-bottom: 34px;
+    margin-bottom: 34px;  
 }
 
 .preview__text {
@@ -159,7 +150,6 @@ li a:hover::after {
     margin-bottom: 54px;
     align-self: start;
 }
-
 
 .button_white {
 
@@ -678,6 +668,7 @@ li a:hover::after {
     color: rgba(49, 66, 198, 1);
 }
 
+
 @media screen and (max-width:1200px) {
     .container {
         max-width: 1040px;
@@ -707,16 +698,37 @@ li a:hover::after {
     /* 
     preview */
 
-    .preview {
+     .preview {
         background-color: #F3C6BD;
-        padding-bottom: 369px;
         padding-top: 25px;
+        padding-bottom: 200px;
 
+    } 
+
+    .container{
+        padding: 26px 0 30px;
     }
 
-    .preview_content {
-        display: block;
+    .preview_container {
+        display: inline-block;
         flex-direction: column;
+    }
+
+    .preview__title{
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 72px;
+        letter-spacing: -0.5px;
+        max-width: 525px;
+        margin-bottom: 15px;
+    }
+    .preview__text{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        max-width: 355px;
+        margin-bottom: 30px;
+
     }
 
     .preview__image img {
@@ -724,14 +736,6 @@ li a:hover::after {
         width: 620px;
         max-width: 100%;
         margin-right: 217px;
-    }
-
-    .preview_content>div:first-of-type {
-        display: inline-block;
-    }
-
-    .preview_content>div:last-of-type {
-        display: block;
     }
 
     /* purpose */
@@ -1044,6 +1048,16 @@ li a:hover::after {
     .header {
         padding: 25px 0;
     }
+/* 
+    preview */
+
+
+    .preview__image {
+
+        max-width: 775px;
+        width: 100%;
+        
+    }
 
     /* brands */
 
@@ -1143,6 +1157,18 @@ li a:hover::after {
         margin: 0 auto;
     }
 
+    /* preview */
+    
+    /* .preview{
+        padding-left: 40px;
+
+    } */
+    .preview__image {
+
+        max-width: 430px;
+        width: 100%;
+        
+    }
     /* inbox */
 
     .inbox {
@@ -1282,6 +1308,13 @@ li a:hover::after {
         padding: 8px 0;
     }
 
+
+    .preview__image {
+
+        max-width: 480px;
+        width: 100%;
+        right:0;
+     }
     .purpose__content {
         max-width: 432px;
         margin: 69px 0 34px;
@@ -1470,6 +1503,42 @@ li a:hover::after {
         padding: 8px 0;
     }
 
+  
+    .preview__title {
+        font-family: 'WorkSans';
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: -0.3125px;
+
+    }
+
+    .pictures__text {
+        font-family: 'WorkSans';
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .preview button {
+        width: 290px;
+        height: 48px;
+        left: 15px;
+        top: 5447px;
+    }
+
+    .button_white {
+        margin-top: 15px;
+    }
+
+    .preview__image {
+        max-width: 360px;
+        width: 100%;
+        margin-bottom: 36px;
+    }
+
+    .preview__right {
+        padding-bottom: 0;
+    }
+
     .purpose__content {
         max-width: 432px;
         margin: 69px 0 34px;
@@ -1590,7 +1659,7 @@ li a:hover::after {
     /* preview */
 
     .preview {
-        padding-bottom: 200px;
+        padding-bottom: 50px;
     }
 
 
@@ -1624,15 +1693,12 @@ li a:hover::after {
         margin-top: 15px;
     }
 
-    .preview__image img {
-        height: 180px;
+    .preview__image {
+        height:200px;
         width: 290px;
         margin-bottom: 36px;
     }
 
-    .preview__right {
-        padding-bottom: 0;
-    }
 
     /* purpose */
 
