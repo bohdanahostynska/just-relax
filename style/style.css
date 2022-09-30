@@ -431,15 +431,21 @@ li a:hover::after {
 
 .features{
     padding: 133px 0 103px;
-    /* position: relative; */
+    position: relative; 
    
 }
 
+.features__guy{
+    position: absolute;
+    left: 0;
+    bottom: 35%;
+}
 
 .features__left{
     flex-direction: column;
     text-align: start;
     align-items: center;
+    margin-right: 126px;
 }
 
 .features__pretitle{
@@ -468,11 +474,14 @@ li a:hover::after {
 }
 
 .features__img{
-   max-width:684px;
-    height:591px;
-    bottom: 20%;
-    
- 
+    position: absolute;
+    right: 0;
+    left: 70%;
+    bottom: 40%;
+    width: 684px;
+    height: 591px;
+    max-width: 100%;
+    top: 19%;
 }
 
 .features__items{
@@ -2563,6 +2572,11 @@ li a:hover::after {
         transform: scale(1.5);
         transition-duration: 100ms;
     }
+
+    .footer__container{
+      padding-right: 90px;
+    }
+
 
     @keyframes img {
         from {
