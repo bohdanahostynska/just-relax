@@ -116,7 +116,8 @@ li a:hover::after {
 }
 
    .check-wrapper {
-    display: none;
+     display: none; 
+
 }
 
 
@@ -213,7 +214,7 @@ li a:hover::after {
 .preview {
     background-color: #F3C6BD;
     padding-bottom: 126px;
-    position: relative;
+     position: relative; 
 }
 
 
@@ -223,7 +224,6 @@ li a:hover::after {
 }
 
 .preview_container>div:last-of-type {
-    z-index: 3;
     position: absolute;
     right: 25px;
 }
@@ -429,7 +429,83 @@ li a:hover::after {
     justify-content: space-between;
 }
 
+.features{
+    padding: 133px 0 103px;
+}
+.features__left{
+    flex-direction: column;
+    text-align: start;
+    align-items: center;
+}
 
+.features__pretitle{
+    font-size: 22px;
+    line-height: 34px;
+    color: #009B4D;
+}
+
+.features__title{
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    color: #2B292D;
+    max-width: 462px;
+    font-weight: bold;
+    margin:24px 0 30px;
+
+}
+
+.features__text{
+    font-size: 24px;
+    line-height: 34px;
+    color: #2B292D;
+    margin-bottom: 42px;
+    max-width: 462px;
+}
+
+.features__img{
+    width:684px;
+    height:591px;
+    max-width: 100%;
+}
+
+.features__items{
+    box-sizing: border-box;
+    /* border: 1px solid rgba(43, 41, 45, 0.2);
+    border-radius: 8px; */
+   
+}
+
+.features__list{
+    justify-content: flex-start;
+    
+}
+.features__icon{
+    width:24px;
+    height:24px;
+}
+
+
+.features__newtitle{
+    font-size: 22px;
+    line-height: 26px;
+    color: #3142C6;
+    font-weight: bold;
+    max-width: 418px;
+   margin: 0 0 8px 15px;
+   padding: 12px 0;
+}
+
+.features__newtext{
+    font-size: 18px;
+    line-height: 26px;
+    color: #2B292D;
+    max-width: 457px;
+     width:457px;
+    height: 3px;
+    background: #3142C6; 
+
+}
 
 .inbox {
     background-color: rgb(252, 240, 227, .4);
@@ -581,6 +657,103 @@ li a:hover::after {
     color: rgba(49, 66, 198, 1);
 }
 
+.about{
+    padding: 106px 0 90px;
+}
+
+.about__team{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about__teamtitle{
+    font-size: 56px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #2B292D;
+    max-width: 555px;
+    margin: 0 auto ;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.about__teamtext{
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #2B292D;
+    max-width: 555px;  
+    margin: 0 auto;
+    margin-bottom: 28px;
+}
+
+.about__button{
+    font-family: 'WorkSans';
+    font-size: 18px;
+    line-height: 13px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #3040C4;
+    background-blend-mode: overlay, normal;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    width: 247px;
+    height: 48px;
+    padding: 17px 29px 18px 28px;
+}
+
+.about__company{
+    margin-top: 63px;
+}
+
+.about__items{
+    max-width: 750px;
+    margin: 0 auto 20px;
+    box-sizing: border-box;
+    padding: 26px 25px;
+    border: 1px solid rgba(43, 41, 45, 0.2);
+    border-radius: 8px;
+    
+}
+
+.about-rotate-icon{
+    transform: rotate(90deg);
+    transition: 300ms;
+}
+
+.about__pretitle{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: bold;
+    max-width: 408px;
+}
+
+.about__location{
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 232px;
+  
+}
+
+/* .about__location:last-of-type{
+    margin-left: 30px;
+} */
+
+
+.about__text{
+    margin-top: 3px;
+    max-width: 410px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    display: none;
+}
+.change-color{
+    color:white;
+    background-color: #3141C5;
+   border: 2px solid #3141C5;
+   transition: 300ms;
+}
 
 .pictures {
     padding: 90px 0 91px;
@@ -965,10 +1138,11 @@ li a:hover::after {
 
     .preview_container {
         flex-direction: column;
+        z-index: 1;
     }
 
     .preview_container>div:last-of-type {
-        z-index: 0;
+        /* z-index: 0; */
         position: static;
         right: 25px;
     }
@@ -2585,10 +2759,7 @@ li a:hover::after {
         transition-timing-function: ease-in-out;
     }
 
-    /* .container-image__img:hover {
-        animation-play-state: paused;
-    }
-     */
+
     @keyframes image {
 
         from {
