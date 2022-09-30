@@ -212,7 +212,7 @@ li a:hover::after {
 
 
 .preview {
-    background-color: #F3C6BD;
+    background-color:#F3C6BD;
     padding-bottom: 126px;
      position: relative; 
 }
@@ -431,7 +431,11 @@ li a:hover::after {
 
 .features{
     padding: 133px 0 103px;
+    /* position: relative; */
+   
 }
+
+
 .features__left{
     flex-direction: column;
     text-align: start;
@@ -451,7 +455,7 @@ li a:hover::after {
     color: #2B292D;
     max-width: 462px;
     font-weight: bold;
-    margin:24px 0 30px;
+    margin:24px 125px 30px 0;
 
 }
 
@@ -464,25 +468,41 @@ li a:hover::after {
 }
 
 .features__img{
-    width:684px;
+   max-width:684px;
     height:591px;
-    max-width: 100%;
+    bottom: 20%;
+    
+ 
 }
 
 .features__items{
     box-sizing: border-box;
-    /* border: 1px solid rgba(43, 41, 45, 0.2);
-    border-radius: 8px; */
-   
+    align-items: flex-start;
+    border-bottom: 1px solid #2B292D;
+    mix-blend-mode: normal;
+    padding-bottom:22px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.change--colors{
+    border-bottom: 3px solid #3142C6;
+
 }
 
 .features__list{
     justify-content: flex-start;
-    
+    align-items: flex-start;
+ 
 }
 .features__icon{
     width:24px;
     height:24px;
+    margin-top: 15px;
+}
+
+.features-scale-icon{
+    transform: scale(1.8);
 }
 
 
@@ -494,6 +514,8 @@ li a:hover::after {
     max-width: 418px;
    margin: 0 0 8px 15px;
    padding: 12px 0;
+  
+    
 }
 
 .features__newtext{
@@ -501,11 +523,11 @@ li a:hover::after {
     line-height: 26px;
     color: #2B292D;
     max-width: 457px;
-     width:457px;
-    height: 3px;
-    background: #3142C6; 
+     display: none;   
 
 }
+
+
 
 .inbox {
     background-color: rgb(252, 240, 227, .4);
@@ -734,10 +756,6 @@ li a:hover::after {
     max-width: 232px;
   
 }
-
-/* .about__location:last-of-type{
-    margin-left: 30px;
-} */
 
 
 .about__text{
