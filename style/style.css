@@ -438,6 +438,11 @@ li a:hover::after {
    
 }
 
+ .features .container{
+    max-width: 1140px;
+    margin: 0 auto;
+} 
+
 .features__guy{
     position: absolute;
     left: 0;
@@ -448,6 +453,7 @@ li a:hover::after {
     flex-direction: column;
     margin-right: 126px;
     max-width: 457px;
+    position: static;
 }
 
 .features__pretitle{
@@ -988,7 +994,7 @@ background-color: #3142C6;
     padding: 134px 0 53px;
 }
 
-.footer__container{
+.footer .container{
     flex-direction: row;
     justify-content: space-between;
 }
@@ -1012,6 +1018,7 @@ background-color: #3142C6;
 .footerlogo_info{
     flex-direction: column;
     margin-bottom: 18px;
+ 
 
 }
 
@@ -1048,8 +1055,7 @@ background-color: #3142C6;
 .footer__info{
     text-align: start;
     justify-content: space-between;
-    margin-bottom: 47px;
-    margin-right: 130px;
+    margin: 0 130px 47px;
     
 }
 
