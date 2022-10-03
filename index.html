@@ -12,9 +12,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
         integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js" integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./style/style.css" class="stylesheet">
+    <link rel="stylesheet" href="./style/carusel.css">
 </head>
-
 <body>
     <header class="header">
         <div class="container flex">
@@ -39,7 +40,7 @@
             <div class="header__all flex">
                 <ul class="header__ul flex flex_all">
                     <li class="header__li">
-                        <a href="#" class="header__link">Home</a>
+                        <a href="#" class="header__link" id="about-link">Home</a>
                     </li>
                     <li class="header__li">
                         <a href="#" class="header__link">Stories</a>
@@ -65,7 +66,7 @@
             <button class="button">
                 Get started
             </button>
-            <button class="button button_white">
+            <button id="open-modal" class="button button_white">
                 Learn More
             </button>
         </div>
@@ -127,8 +128,66 @@
             </div>
         </div>
     </section>
+    <section class="tools">
+        <div class="tools__container">
+             <div class="carusel">
+                <div class="tools__content">
+                     <h4 class="tools__title">
+                         Trusted by the world’s most innovative businesses – big and small
+                             </h4>
+                         <p class="tools__text">
+                     Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support”
+                             </p>
+                         <p class="tools__name">
+                             Viella Malkovich
+                             </p>
+                       <p class="tools__position">
+                               Creative Director at Johnson
+                             </p>   
+                  <div class="tools__right">        
+                          <img src="./img/tools/© icons8.com/ouch.png" alt="Tools image" class="tools__image">
+                            </div>   
+                                </div>
+            <div class="tools__content">
+                  <h4 class="tools__title">
+                    Trusted by the world’s most innovative businesses – big and small
+                        </h4>
+                  <p class="tools__text">
+                         Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support”
+                        </p>
+                     <p class="tools__name">
+                         Viella Malkovich
+                        </p>
+                    <p class="tools__position">
+                          Creative Director at Johnson
+                        </p> 
+                 <div class="tools__right">        
+                           <img src="./img/tools/© icons8.com/ouch.png" alt="Tools image" class="tools__image">
+                              </div>      
+                                </div>
+       <div class="tools__content">
+             <h4 class="tools__title">
+                 Trusted by the world’s most innovative businesses – big and small
+                      </h4>
+                          <p class="tools__text">
+                                   Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support”
+                                 </p>
+                          <p class="tools__name">
+                                Viella Malkovich
+                                       </p>
+                             <p class="tools__position">
+                               Creative Director at Johnson
+                                          </p>   
+              <div class="tools__right">         
+                   <img src="./img/tools/© icons8.com/ouch.png" alt="Tools image" class="tools__image">
+                          </div>  
+                              </div>
+                 </div> 
+                </div>
+        </div>
+    </section>
     <section class="features">
-        <div class="container flex">
+        <div class="features__container">
             <div class="features__preleft">
                 <img class='features__guy' src="./img/features/about.png.svg" alt="features__preleft">
             </div>
@@ -324,7 +383,7 @@
         </div>
         </div>
     </section>
-    <section class="about">
+    <section id="about" class="about">
         <div class="container">
             <div class="about__team">
                 <h class="about__teamtitle">
@@ -340,15 +399,19 @@
             <div class="about__company">
                 <div class="about__items">
                     <div class="flex">
+                        <div class="about__position flex">
                         <p class="about__pretitle">
                             Front-End Developer
                         </p>
                         <p class="about__location">
                             Los Angeles / Remote
                         </p>
+                    </div>
+                    <div class="about__toggle">
                         <p class="about__icon">
                             >
                         </p>
+                    </div>
                     </div>
                     <p class="about__text">
                         Everything you need to start building – including open-source code, documentation.
@@ -356,15 +419,19 @@
                 </div>
                 <div class="about__items">
                     <div class="flex">
+                        <div class="about__position flex">
                         <p class="about__pretitle">
                             Community Manager
                         </p>
                         <p class="about__location">
                             New York / Full-Time
                         </p>
-                        <p class="about__icon">
+                    </div>
+                        <div class="about__toggle">
+                        <p class="about__icon ">
                             >
                         </p>
+                    </div>
                     </div>
                     <p class="about__text">
                         Everything you need to start building – including open-source code, documentation.
@@ -372,15 +439,19 @@
                 </div>
                 <div class="about__items">
                     <div class="flex">
+                        <div class="about__position flex">
                         <p class="about__pretitle">
                             UX/UI Designer
                         </p>
                         <p class="about__location">
                             New York / Full-Time
                         </p>
+                    </div>
+                    <div class="about__toggle">
                         <p class="about__icon">
                             >
                         </p>
+                    </div>
                     </div>
                     <p class="about__text">
                         Everything you need to start building – including open-source code, documentation.
@@ -602,8 +673,25 @@
         </div>
     </div>
 </footer >
+<div class="modal-overlay">
+    <div class="modal">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione id quas a labore odit placeat blanditiis ea quisquam quae excepturi!
+        </p>
+        <p class="close">
+            x
+        </p>
+    </div>
+</div>
+<div class="" id="up">
+    <span>></span>
+</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+<script src="./script/bxslider.js"></script>
 <script src="./script/script.js"></script>
+<script src="./script/modal.js"></script>
+<script src="./script/upButton.js"></script>
 </body>
 
 </html>
