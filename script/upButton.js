@@ -15,3 +15,13 @@ $('#about-link').on('click',function(e){
     $('html, body') .animate({scrollTop: $('#about').offset().top}, 4000)
 
 })
+
+$("#up").on("click",function(){
+    $("html,body").animate({scrollTop:0},500)
+})
+
+$('#pictures-link').on('click',function(e){
+    e.preventDefault();
+    $('html, body') .animate({scrollTop: $('#pictures').offset().top}, 4000)
+
+})
