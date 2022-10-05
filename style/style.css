@@ -2012,6 +2012,11 @@ background-color: #3142C6;
         position: static;
     }
 
+    .preview__img{
+        height: max-content;
+        width: 100%;
+    }
+    .
     /* inbox */
 
     .inbox {
@@ -2182,6 +2187,12 @@ background-color: #3142C6;
         max-width: 430px;
     }
 
+
+    .trial__menu{
+        margin-top: 20px;
+    }
+
+
     
     .footer .container {
         flex-direction: column;
@@ -2238,6 +2249,13 @@ background-color: #3142C6;
 
     } 
 
+    .preview__img{
+        height: max-content;
+        max-width: 100%;
+        width: 310px;
+    }
+    
+
     .logo{
         flex-direction: column;
     }
@@ -2251,11 +2269,6 @@ background-color: #3142C6;
         z-index: 0;
         position: static;
 
-    }
-
-    .preview__image{
-        height: max-content;
-        width: 100%;
     }
 
     /* purpose */
@@ -2494,11 +2507,7 @@ background-color: #3142C6;
         flex-direction: column;
     }
 
-    .trial-href{
-        max-width: 160px;
-    }
-
-    
+ 
     .trial__check {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -2512,9 +2521,20 @@ background-color: #3142C6;
         grid-column: span2;
     }
 
-    .trial__text {
-        margin-left: 40px;
+    .trial-href{
+        display: inline-block;
+        margin-top: 20px;
+        max-width: 160px;
+    }
 
+    .trial__menu{
+        margin-top: 20px;
+    }
+
+    .freetrial__email{
+        width:290px;
+        margin-bottom: 15px;
+        margin-left: 20px;
     }
 
     
@@ -2795,10 +2815,15 @@ background-color: #3142C6;
         grid-column: span2;
     }
 
-    .trial__text {
-        margin-left: 40px;
-
+    .trial-href{
+        display: inline-block;
+        margin-top: 20px;
     }
+
+    .trial__menu{
+        margin-top: 20px;
+    }
+
 
     .footer .container {
         flex-direction: column;
@@ -2811,6 +2836,15 @@ background-color: #3142C6;
         flex-direction: column;
         justify-content: start;
         align-items: start;
+    }
+
+    .footer__image{
+        position: relative;
+    }
+
+    .footer__image:hover{
+        transform: scale(1,2);
+        transition: 200;
     }
 
     .flex__info-column{
@@ -2928,6 +2962,7 @@ background-color: #3142C6;
         height: 200px;
         width: 290px;
         height: max-content;
+        max-width: 100%;
 
     }
 
@@ -3114,7 +3149,7 @@ background-color: #3142C6;
 
     .features__content{
         margin:0 auto;
-        /* max-width: 290px; */
+
         
     }
     .features__newtitle{
@@ -3142,11 +3177,12 @@ background-color: #3142C6;
     }
 
     .features__img{
-        position: static;
+        position: relative;
         width: 290px;
         height: 240px;
         margin-left: 30px;
     }
+
 
     .features__pretitle{
         font-size: 22px;
@@ -3162,19 +3198,6 @@ background-color: #3142C6;
     
 
 
-
-    .footer .container {
-        flex-direction: column;
-        justify-content: space-between;
-        padding-right: 90px;
-    }
-
-
-    .footer__apps {
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
-    }
 
     .flex__info-column{
         margin: 0 auto;
@@ -3251,6 +3274,15 @@ background-color: #3142C6;
 
     .about{
         padding: 118px 0 78px;
+    }
+
+    .about__button{
+        position: relative;
+    }
+
+    .about__button:hover{
+       transform: scale(1,2);
+       transition: 100;
     }
     
     .about__items{
@@ -3433,6 +3465,7 @@ background-color: #3142C6;
         width: 290px;
         height: 46px;
         margin-bottom: 10px;
+        margin: 20px 0;
     }
 
     .trial__check {
@@ -3440,17 +3473,21 @@ background-color: #3142C6;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
         max-width: 290px;
-        margin-left: 20px;
 
     }
 
     .trial__check:nth-child(5) {
         grid-column: span2;
+     
     }
 
-    .trial__text {
-        margin-left: 40px;
+    .trial-href{
+        display: inline-block;
+        margin-top: 20px;
+    }
 
+    .trial__menu{
+        margin-top: 20px;
     }
 
     .freetrial__image {
@@ -3496,6 +3533,31 @@ background-color: #3142C6;
             left: 30px;
             background-color: #000000;
         }
+    }
+
+    
+
+
+    .footer .container {
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 90px;
+    }
+
+
+    .footer__apps {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .footer__image{
+        position: relative;
+    }
+
+    .footer__image:hover{
+        transform: scale(1,2);
+        transition: 200;
     }
 }
 
