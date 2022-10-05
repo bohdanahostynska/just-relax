@@ -1945,6 +1945,35 @@ background-color: #3142C6;
       
     }
 
+   
+    
+    .footer .container {
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 100px;
+
+    }
+
+
+    .footer__apps {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .flex__info-column{
+        margin: 0 auto;
+    }
+    .footer__text{
+        text-align: center;
+    }
+    .footer__apps {
+       
+        align-items: center;
+
+    }
+
+
 }
 
 @media screen and (max-width:550px) {
@@ -2152,6 +2181,26 @@ background-color: #3142C6;
     .trial__check{
         max-width: 430px;
     }
+
+    
+    .footer .container {
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 100px;
+
+    }
+
+
+    .footer__apps {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .flex__info-column{
+        margin: 0 auto;
+    }
+
 }
 
 
@@ -2468,6 +2517,26 @@ background-color: #3142C6;
 
     }
 
+    
+    .footer .container {
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 100px;
+
+    }
+
+
+    .footer__apps {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .flex__info-column{
+        margin: 0 auto;
+    }
+
+
 
 }
 
@@ -2729,6 +2798,23 @@ background-color: #3142C6;
     .trial__text {
         margin-left: 40px;
 
+    }
+
+    .footer .container {
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+
+    .footer__apps {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .flex__info-column{
+        margin: 0 auto;
     }
 
 
@@ -3077,10 +3163,22 @@ background-color: #3142C6;
 
 
 
-    .footer__container{
-      padding-right: 90px;
+    .footer .container {
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 90px;
     }
 
+
+    .footer__apps {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .flex__info-column{
+        margin: 0 auto;
+    }
 
     @keyframes img {
         from {
