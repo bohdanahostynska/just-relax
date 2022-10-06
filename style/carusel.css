@@ -1,7 +1,7 @@
 
 .tools{
    position: relative; 
-    padding: 86px 0 66px;
+    padding: 86px 0 30px;
 }
 
 .tools__container{
@@ -61,6 +61,14 @@
     color: #3142C6;
     font-weight: bold;
     margin-bottom: 28px;
+}
+
+.change--color-green{
+    color: chartreuse;
+}
+
+.change--color-aqua{
+    color: aqua;
 }
 
 .tools__text{

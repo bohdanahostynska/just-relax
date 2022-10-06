@@ -10,3 +10,9 @@ $ ('.features__items > div') .on ('click',function(){
     $(this).next('.features__newtext').slideToggle(300);
 
 })
+
+$ ('.tools__content > div') .on ('click',function(){
+    $(this).children('.tools__title').toggleClass('change--color-green');
+    $(this).children('.tools__title').toggleClass('change--color-aqua');
+
+})
