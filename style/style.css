@@ -188,7 +188,8 @@ li a:hover::after {
         right: 0;
         text-align: center;
         padding-top: 40px;
-        margin-bottom: 40px;
+        z-index: 2;
+        
     }
 
     .flex_all {
@@ -397,7 +398,7 @@ li a:hover::after {
 }
 
 .audience__pic {
-    background-color: #F4F5F7;
+    background-color: #FFFF;
     background-blend-mode: overlay, normal;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
@@ -737,6 +738,8 @@ li a:hover::after {
     margin-bottom: 28px;
 }
 
+
+
 .about__button {
     font-family: 'WorkSans';
     font-size: 18px;
@@ -775,6 +778,12 @@ li a:hover::after {
     line-height: 28px;
     font-weight: bold;
     max-width: 408px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+
+.pretitle-last{
+    margin-right: 150px;
 }
 
 .about__location {
@@ -1257,7 +1266,7 @@ li a:hover::after {
         margin-bottom: 50px;
         /* z-index: 8; */
         height: max-content;
-        z-index: 2;
+        z-index: 3;
     }
 
     .check-wrapper {
@@ -2535,7 +2544,20 @@ li a:hover::after {
     .communicate-image__img {
         max-width: 100%;
     }
+    .footer__bottom{
+        flex-direction: column;
+        
+    }
 
+    .foot__left{
+        margin:0 auto;
+    }
+
+    .foot_right{
+        margin-left: 90px;
+        margin-top: 20px;
+       
+    }
 
     /* audience */
 
@@ -2590,7 +2612,14 @@ li a:hover::after {
         height: 140px;
     }
 
-
+    .about__pretitle{ 
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .pretitle-last{
+        margin-right: 60px;
+    }
     .pictures__aim {
         padding-top: 30px;
     }
@@ -2832,6 +2861,15 @@ li a:hover::after {
         cursor: pointer;
     }
 
+    
+    .about__pretitle {
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .pretitle-last{
+        margin-right: 60px;
+    }
     .purpose__content {
         max-width: 432px;
         margin: 69px 0 34px;
@@ -3551,7 +3589,6 @@ li a:hover::after {
         border-radius: 0px 8px 8px 0px;
         width: 7px;
         height: 12px;
-        background-color: #D5D4D5;
         width: 50px;
         height: 140px;
         display: flex;
@@ -3577,9 +3614,13 @@ li a:hover::after {
         font-size: 16px;
         line-height: 22px;
         max-width: 199px;
+        margin-right: 30px;
+        margin-bottom: 10px;
     }
 
-
+    .pretitle-last{
+        margin-right: 60px;
+    }
 
     /* pictures */
 
