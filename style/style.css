@@ -161,6 +161,8 @@ li a:hover::after {
         display: block;
         position: relative;
         z-index: 3;
+        width: 30px;
+        height: 30px;
     }
 
 
@@ -1081,7 +1083,6 @@ li a:hover::after {
 .footer__info {
     text-align: start;
     justify-content: space-between;
-    /* margin: 0 30px 47px; */
     align-items: flex-start;
 
 }
@@ -1252,7 +1253,7 @@ li a:hover::after {
 
     .logo__text {
         display: none;
-    }
+    }   
 
     .header_checkbox:checked~.header__all {
         display: block;
@@ -1264,7 +1265,6 @@ li a:hover::after {
         text-align: center;
         padding-top: 20px;
         margin-bottom: 50px;
-        /* z-index: 8; */
         height: max-content;
         z-index: 3;
     }
