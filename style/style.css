@@ -1246,7 +1246,6 @@ li a:hover::after {
         max-width: 750px;
     }
 
-    /* header */
 
     .header {
         padding-bottom: 0;
@@ -1276,8 +1275,6 @@ li a:hover::after {
         z-index: 10;
     }
 
-    /* 
-    preview */
 
     .preview {
         background-color: #F3C6BD;
@@ -1323,7 +1320,6 @@ li a:hover::after {
         max-width: 100%;
     }
 
-    /* purpose */
 
     .flex__content-column {
         flex-direction: column;
@@ -1351,7 +1347,6 @@ li a:hover::after {
     }
 
 
-    /* brands */
 
     .brands__content-grid {
         display: grid;
@@ -1364,12 +1359,6 @@ li a:hover::after {
     .logo__item {
         max-width: 82%;
     }
-
-    /* features*/
-
-
-
-    /* inbox */
 
     .flex__inbox-column {
         flex-direction: column-reverse;
@@ -1410,9 +1399,6 @@ li a:hover::after {
         max-width: 290px;
         width: 100%
     }
-
-
-    /* communicate */
 
 
     .communicate {
@@ -1493,8 +1479,7 @@ li a:hover::after {
         }
     }
 
-    /* 
-    audience */
+
 
     .audience {
         padding: 50px 0 79px;
@@ -1565,8 +1550,6 @@ li a:hover::after {
         transition: 400;
         cursor: pointer;
     }
-
-    /* pictures */
 
     .pictures {
         padding: 113px 0 14px;
@@ -1831,7 +1814,7 @@ li a:hover::after {
 
 
 @media screen and (max-width:800px) {
-    /* header */
+
 
     .container {
         max-width: 500px;
@@ -1851,15 +1834,12 @@ li a:hover::after {
         bottom: 0;
         text-align: center;
         padding-top: 10px;
-        margin-bottom: 80px;
+
     }
 
     .header button {
         margin-right: 85px;
     }
-
-    /* 
-    preview */
 
 
     .preview_container {
@@ -1881,8 +1861,6 @@ li a:hover::after {
         transition: 400;
         cursor: pointer;
     }
-
-    /* brands */
 
 
     .brands__content-grid {
@@ -1967,8 +1945,6 @@ li a:hover::after {
         max-width: 100%;
     }
 
-
-    /* inbox */
 
     .inbox {
         padding: 40px 0;
@@ -2089,8 +2065,6 @@ li a:hover::after {
         bottom: 0;
         text-align: center;
         padding-top: 10px;
-        margin-bottom: 80px;
-        margin-right: 80px;
     }
 
     .about__button {
@@ -2109,7 +2083,6 @@ li a:hover::after {
         margin: 0 auto;
     }
 
-    /* preview */
 
     .preview_container {
         flex-direction: column;
@@ -2125,8 +2098,6 @@ li a:hover::after {
         width: 100%;
     }
 
-
-    /* inbox */
 
     .inbox {
         padding: 50px 0 48px;
@@ -2304,8 +2275,6 @@ li a:hover::after {
 
 
     .footer .container {
-        flex-direction: column;
-        justify-content: space-between;
         padding-right: 100px;
 
     }
@@ -2373,8 +2342,7 @@ li a:hover::after {
         bottom: 0;
         text-align: center;
         padding-top: 0;
-        margin-bottom: 80px;
-        margin-right: 150px;
+
     }
 
     .header button {
@@ -2396,8 +2364,6 @@ li a:hover::after {
         flex-direction: column;
     }
 
-    /* preview */
-
     .preview_container {
         flex-direction: column;
     }
@@ -2408,14 +2374,13 @@ li a:hover::after {
 
     }
 
-    /* purpose */
     .purpose__content {
         max-width: 432px;
         margin: 69px 0 34px;
         margin: 0 auto;
     }
 
-    /* brands */
+
 
 
     .logo__item-pic {
@@ -2430,7 +2395,6 @@ li a:hover::after {
         width: 90%
     }
 
-    /* inbox */
 
     .inbox {
         padding: 50px 0 48px;
@@ -2540,8 +2504,6 @@ li a:hover::after {
         margin-top: 20px;
 
     }
-
-    /* audience */
 
 
     .audience__list-grid {
@@ -2722,8 +2684,6 @@ li a:hover::after {
 
 
     .footer .container {
-        flex-direction: column;
-        justify-content: space-between;
         padding-right: 100px;
 
     }
@@ -2792,8 +2752,6 @@ li a:hover::after {
         bottom: 0;
         text-align: center;
         padding-top: 0;
-        margin-bottom: 80px;
-        margin-right: 350px;
     }
 
     .logo {
@@ -3067,13 +3025,6 @@ li a:hover::after {
     }
 
 
-    .footer .container {
-        flex-direction: column;
-        justify-content: space-between;
-
-    }
-
-
     .footer__apps {
         flex-direction: column;
         justify-content: start;
@@ -3104,7 +3055,6 @@ li a:hover::after {
         max-width: 290px;
     }
 
-    /* header */
     .header {
         background-color: #fff;
         padding: 8px 10px 40px;
@@ -3121,8 +3071,7 @@ li a:hover::after {
         bottom: 0;
         text-align: center;
         padding-top: 0;
-        margin-bottom: 10px;
-        margin-right: 350px;
+        ,
     }
 
     .header__menu .header__li {
@@ -3153,8 +3102,6 @@ li a:hover::after {
         margin-right: 13px;
         max-width: 290px;
     }
-
-    /* preview */
 
 
     .preview {
@@ -3209,9 +3156,6 @@ li a:hover::after {
 
     }
 
-
-    /* purpose */
-
     .purpose__content {
         margin: 46px 15px;
     }
@@ -3220,7 +3164,6 @@ li a:hover::after {
         margin-bottom: 20px;
     }
 
-    /* brands */
 
     .brands {
         padding: 40px 0 50px;
@@ -3254,9 +3197,6 @@ li a:hover::after {
         height: 100%;
         width: 90%
     }
-
-
-    /* inbox */
 
     .inbox {
         padding: 50px 0 48px;
@@ -3458,9 +3398,6 @@ li a:hover::after {
         }
     }
 
-    /* 
-    audience */
-
     .audience {
         padding: 50px 0 50px;
     }
@@ -3621,7 +3558,6 @@ li a:hover::after {
         margin-right: 60px;
     }
 
-    /* pictures */
 
     .pictures {
         padding: 20px 0 30px;
@@ -3790,8 +3726,6 @@ li a:hover::after {
 
 
     .footer .container {
-        flex-direction: column;
-        justify-content: space-between;
         padding-right: 90px;
     }
 
@@ -3823,9 +3757,6 @@ li a:hover::after {
     }
 }
 
-
-
-/* animation */
 
 
 .header button:hover {
